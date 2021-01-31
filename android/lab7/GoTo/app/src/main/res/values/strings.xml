@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GoTo</string>
+    <string name="edittext_uri">http://developer.android.com</string>
+    <string name="button_uri">OPen Website</string>
+    <string name="edittext_loc">Golden Gate Bridge</string>
+    <string name="button_loc">Oeen Location</string>
+    <string name="edittext_share"></string>
+    <string name="button_share">Share</string>
+    <string name="share_text_with" />
+</resources>
