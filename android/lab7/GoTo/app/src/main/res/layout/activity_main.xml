@@ -19,8 +19,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
+        android:onClick="openWebsite"
         android:text="@string/button_uri"
-        android:onClick="openWebsite"/>
+        app:backgroundTint="#4CAF50" />
 
     <EditText
         android:id="@+id/location_edittext"
@@ -33,8 +34,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
+        android:onClick="openLocation"
         android:text="@string/button_loc"
-        android:onClick="openLocation"/>
+        app:backgroundTint="#4CAF50" />
 
     <EditText
         android:id="@+id/share_edittext"
@@ -48,6 +50,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
         android:onClick="shareText"
-        android:text="@string/button_share" />
+        android:text="@string/button_share"
+        app:backgroundTint="#4CAF50" />
 
 </LinearLayout>

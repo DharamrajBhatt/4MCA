@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#EFE480"
+    android:background="#F8F8F5"
     tools:context=".MainActivity2">
 
     <TextView
@@ -32,10 +32,11 @@
 
     <Button
         android:id="@+id/button_second"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="99dp"
+        android:layout_height="54dp"
         android:layout_marginRight="16dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="36dp"
+        android:gravity="right"
         android:onClick="returnReply"
         android:text="@string/button_second"
         app:backgroundTint="#4CAF50"
@@ -44,13 +45,14 @@
 
     <EditText
         android:id="@+id/editText_second"
-        android:layout_width="301dp"
-        android:layout_height="40dp"
+        android:layout_width="255dp"
+        android:layout_height="50dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="36dp"
         android:background="#FFFFFF"
         android:ems="10"
+        android:gravity="left"
         android:hint="@string/editText_second"
         android:inputType="textLongMessage"
         app:layout_constraintBottom_toBottomOf="parent"
