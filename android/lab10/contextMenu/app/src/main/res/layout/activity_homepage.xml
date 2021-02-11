@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9FAF7"
+    tools:context=".Homepage">
+
+    <ImageButton
+        android:id="@+id/btnManali"
+        android:layout_width="134dp"
+        android:layout_height="91dp"
+        android:adjustViewBounds="true"
+        android:background="#E6C4C4"
+        android:contentDescription="Manali"
+        android:foregroundGravity="left"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.158"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.525"
+        app:srcCompat="@drawable/manali"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageButton
+        android:id="@+id/btnGokarna"
+        android:layout_width="133dp"
+        android:layout_height="99dp"
+        android:adjustViewBounds="true"
+        android:background="#E6C4C4"
+        android:contentDescription="Gokarna"
+        android:foregroundGravity="right"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.822"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.521"
+        app:srcCompat="@drawable/gokarna"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/features_text"
+        android:layout_width="264dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="24dp"
+        android:background="#F9FAF9"
+        android:gravity="left"
+        android:text="@string/welcome"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#CC9685"
+        android:textColorHighlight="#FFFFFF"
+        android:textSize="50sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.081"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btnLaddakh"
+        android:layout_width="125dp"
+        android:layout_height="96dp"
+        android:adjustViewBounds="true"
+        android:background="#F6C2C2"
+        android:contentDescription="Laddakh"
+        android:foregroundGravity="right"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.832"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.283"
+        app:srcCompat="@drawable/laddakh"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageButton
+        android:id="@+id/btnNainital"
+        android:layout_width="133dp"
+        android:layout_height="91dp"
+        android:adjustViewBounds="true"
+        android:background="#E6C4C4"
+        android:contentDescription="Nainital"
+        android:foregroundGravity="left"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.158"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.281"
+        app:srcCompat="@drawable/nainital"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="117dp"
+        android:layout_height="77dp"
+        android:foregroundGravity="right"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.904"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042"
+        app:srcCompat="@drawable/hands" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
